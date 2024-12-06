@@ -1,0 +1,39 @@
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+    transform: scale(1);
+}
+
+.carousel-inner img {
+    width: 1200px;
+    /* Đặt chiều rộng cố định */
+    height: 400px;
+    /* Đặt chiều cao cố định */
+    object-fit: cover;
+    /* Đảm bảo hình ảnh giữ tỷ lệ và phù hợp với khung */
+}
+
+/* form */
+#auth-popup {
+    z-index: 1050;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.img-product img {
+    max-width: 150px;
+    height: 150px;
+}
